@@ -24,7 +24,7 @@ def test_dispatch():
         return text.encode(encoding)
     @encode.register('base32')
     def encode_base32(encoding, text):
-        return base64.b32encode(text)
+        return base64.b32encode(text.encode('utf-8'))
     assert encode('utf-8', u('Hello, world')) == b('Hello, world')
     assert encode('utf-16', u('Hello, world')) == b('\xff\xfeH\x00e\x00l\x00l'
                                                     '\x00o\x00,\x00 \x00w\x00o'
