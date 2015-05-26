@@ -19,7 +19,7 @@ def encode(encoding, text):
 
 @encode.register('base32')
 def encode_base32(encoding, text):
-    return base64.b32encode(text)
+    return base64.b32encode(text.encode('utf-8'))
 
 encode('utf-8', u'Hello, world')
 encode('base32', u'Hello, world')
