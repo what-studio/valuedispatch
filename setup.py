@@ -45,6 +45,6 @@ setup(
                  'Programming Language :: Python :: 3.4',
                  'Programming Language :: Python :: Implementation :: CPython',
                  'Programming Language :: Python :: Implementation :: PyPy'],
-    tests_require=['pytest'],
+    tests_require=['pytest', 'six'],
     test_suite='...',
 )
