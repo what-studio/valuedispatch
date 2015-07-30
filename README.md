@@ -24,3 +24,11 @@ def encode_base32(encoding, text):
 encode('utf-8', u'Hello, world')
 encode('base32', u'Hello, world')
 ```
+
+Written by [Heungsub Lee] at [What! Studio] in [Nexon], and
+distributed under the [BSD 3-Clause] license.
+
+[Heungsub Lee]: http://subl.ee/
+[What! Studio]: https://github.com/what-studio
+[Nexon]: http://nexon.com/
+[BSD 3-Clause]: http://opensource.org/licenses/BSD-3-Clause
