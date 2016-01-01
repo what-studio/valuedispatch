@@ -5,7 +5,7 @@
 
    :mod:`valuedispatch`-like API but dispatches value instead of type.
 
-   :copyright: (c) 2015 by What! Studio
+   :copyright: (c) 2015-2016 by What! Studio
    :license: BSD, see LICENSE for more details.
 """
 from functools import update_wrapper
